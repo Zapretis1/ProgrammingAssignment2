@@ -7,6 +7,7 @@
 ## *get the value of the matrix
 ## *set the value of the inverse (warning: manipulate with care)
 ## *get the value of the inverse
+
 makeCacheMatrix <- function(A = matrix(1)) {
     invA <- NULL
     set <- function(B) {
@@ -20,7 +21,6 @@ makeCacheMatrix <- function(A = matrix(1)) {
          setinv = setinv,
          getinv = getinv)
 }
-
 
 
 ## 2) cacheSolve computes the inverse of the special "matrix" returned by makeCacheMatrix above.
